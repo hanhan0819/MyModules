@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewModuleCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="sg.edu.rp.c346.id21007466.mymodules.ModuleDetailActivity.Module Code: C346"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textViewModuleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="sg.edu.rp.c346.id21007466.mymodules.ModuleDetailActivity.Module Name: Android Programming"
+        android:layout_below="@+id/textViewModuleCode"
+        android:layout_alignStart="@+id/textViewModuleCode"
+        android:layout_alignLeft="@+id/textViewModuleCode" />
+
+    <TextView
+        android:id="@+id/textViewAcademicYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="Academic Year: 2020"
+        android:layout_below="@+id/textViewModuleName"
+        android:layout_alignStart="@+id/textViewModuleName"
+        android:layout_alignLeft="@+id/textViewModuleName" />
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="Semester: 1"
+        android:layout_below="@+id/textViewAcademicYear"
+        android:layout_alignStart="@+id/textViewAcademicYear"
+        android:layout_alignLeft="@+id/textViewAcademicYear" />
+
+    <TextView
+        android:id="@+id/textViewModuleCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="sg.edu.rp.c346.id21007466.mymodules.ModuleDetailActivity.Module Credit: 4"
+        android:layout_below="@+id/textViewSemester"
+        android:layout_alignStart="@+id/textViewSemester"
+        android:layout_alignLeft="@+id/textViewSemester" />
+
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="8dp"
+        tools:text="Venue: W66M"
+        android:layout_below="@+id/textViewModuleCredit"
+        android:layout_alignStart="@+id/textViewModuleCredit"
+        android:layout_alignLeft="@+id/textViewModuleCredit" />
+
+</RelativeLayout>
